@@ -6,7 +6,7 @@ import { navLinks } from '../constants'
 import { logo, menu, close } from '../assets'
 
 const Navbar = () => {
-  const [first, setFirst] = useState("");
+  const [active, setActive] = useState("");
 
   return (
     <nav
@@ -20,7 +20,25 @@ const Navbar = () => {
                 window.scrollTo(0,0); //Scroll to top of page
               }}
               >
-                <img src={logo} alt="logo" className="w-2 h-2 object-contain" />
+                <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+                  <p 
+                    className="text-white text-[18px] font-bold cursor-pointer flex"
+                     >Matthew &nbsp;
+                     <span className="sm:block hidden text-[14px]">| Developer</span>
+                     </p>
+                     <ul className='list-none hidden sm:flex flex-row gap-10'>
+                     {navLinks.map((nav) => (
+                        <li
+                          key={nav.id}
+                          className={`${
+                            active === nav.title ? "text-white" : "text-secondary"
+                          } hover:text-white text-[18px] font-medium cursor-pointer`}
+                          onClick={() => setActive(nav.title)}
+                        >
+                          <a href={`#${nav.id}`}>{nav.title}</a>
+                        </li>
+                      ))}
+                      </ul>
             </Link>
         </div>
     </nav>
