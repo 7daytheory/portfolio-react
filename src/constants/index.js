@@ -114,7 +114,6 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Quillsoft",
-      icon: starbucks,
       iconBg: "#383E56",
       date: "Jan 2016 - March 2023",
       points: [
@@ -127,7 +126,6 @@ import {
     {
       title: "Developer",
       company_name: "Strategic Transitions Inc",
-      icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2012 - Dec 2015",
       points: [
@@ -139,10 +137,9 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Freelance Developer",
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2013 - Jan 2014",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,11 +148,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Administrator",
+      company_name: "BPMS Administrator",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2012 - July 2012",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
