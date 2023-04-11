@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -14,11 +13,7 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -117,10 +112,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2016 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created and overseeing growth of the CMS to ensure our tech support had all the data required to help users calling for support",
+        "Worked on a PWA version of our main desktop app to keep up with use of chromebooks in school",
+        "Developed a license management system that is currently in use by every school district that use our applications",
+        "Give design input and make mock-ups that will improve UI/UX"
       ],
     },
     {
@@ -129,22 +124,21 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2012 - Dec 2015",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created their websites and a CMS system for the website",
+        "Moved them from shipping CDs to a subscription-based model for their software",
+        "Created the license management system which was used for all the companies’ applications and programs",
+        "Give design input and make mock-ups that will improve UI/UX"
       ],
     },
     {
       title: "Web Developer",
       company_name: "Freelance Developer",
       iconBg: "#383E56",
-      date: "Jan 2013 - Jan 2014",
+      date: "Jan 2011 - Jan 2013",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and coded all the responsive websites for the company’s clients",
+        "Liaison between clients and upper management on project requirements",
+        "Recruit possible clients and meet with them to discuss initial steps",
       ],
     },
     {
@@ -152,12 +146,11 @@ import {
       company_name: "BPMS Administrator",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "May 2012 - July 2012",
+      date: "May 2010 - July 2010",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created Business Management Systems for large companies such as Wescam",
+        "Visited companies that used BMS Systems to collect data and perform tests to fix bugs that may have been overlooked on installation",
+        "Designed web components for the senior developer",
       ],
     },
   ];
