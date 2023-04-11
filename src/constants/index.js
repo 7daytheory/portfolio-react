@@ -1,7 +1,5 @@
 import {
-    mobile,
     backend,
-    web,
     javascript,
     typescript,
     html,
@@ -13,11 +11,11 @@ import {
     mongodb,
     git,
     figma,
-    meta,
     carrent,
     jobit,
     tripguide,
     threejs,
+    php
   } from "../assets";
   
   export const navLinks = [
@@ -37,67 +35,35 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
       title: "Front End Developer",
-      icon: mobile,
+      icon: reactjs,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Back End Developer",
+      icon: php,
     },
     {
-      title: "Graphic Designer",
+      title: "Database Management",
+      icon: mongodb,
+    },
+    {
+      title: "Designer",
       icon: figma,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "figma",
@@ -109,7 +75,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Quillsoft",
-      iconBg: "#383E56",
+      iconBg: "#46b1c9",
       date: "Jan 2016 - March 2023",
       points: [
         "Created and overseeing growth of the CMS to ensure our tech support had all the data required to help users calling for support",
@@ -121,7 +87,7 @@ import {
     {
       title: "Developer",
       company_name: "Strategic Transitions Inc",
-      iconBg: "#E6DEDD",
+      iconBg: "#9ccd5d",
       date: "Jan 2012 - Dec 2015",
       points: [
         "Created their websites and a CMS system for the website",
@@ -133,7 +99,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Freelance Developer",
-      iconBg: "#383E56",
+      iconBg: "#db4223",
       date: "Jan 2011 - Jan 2013",
       points: [
         "Designed and coded all the responsive websites for the company’s clients",
@@ -142,10 +108,10 @@ import {
       ],
     },
     {
-      title: "Administrator",
-      company_name: "BPMS Administrator",
-      icon: meta,
-      iconBg: "#E6DEDD",
+      title: "BPMS Administrator",
+      company_name: "NeXsys",
+      icon: php,
+      iconBg: "#5eb54a",
       date: "May 2010 - July 2010",
       points: [
         "Created Business Management Systems for large companies such as Wescam",
@@ -157,29 +123,12 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+      testimonial: "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
+    }
   ];
   
   const projects = [
