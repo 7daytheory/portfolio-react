@@ -19,3 +19,7 @@ https://docs.pmnd.rs/react-three-fiber/getting-started
 Similarly when you make a 3D model on video, you need to define a light source, as well as a camera angle. 
 https://docs.pmnd.rs/react-three-fiber/getting-started/your-first-scene#adding-lights
 
+### Higher Order Functions
+A higher-order component is a function that takes in a component and returns a new component. Using code, we can rewrite the above statement like so: const newComponent = higherFunction(WrappedComponent);
+Currently, I'm using higher order functions to pass in Components and them get the same animations/styling done to them.
+
