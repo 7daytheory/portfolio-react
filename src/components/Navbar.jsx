@@ -26,7 +26,7 @@ const Navbar = () => {
                     className="text-white text-[14px] font-medium cursor-pointer flex"
                      >Matthew&nbsp;<span className="flex sm:block hidden">| Developer</span>
                      </p>
-                     <ul className='list-none hidden sm:flex flex-row gap-10 flex justify-end ml-96'>
+                     <ul className='list-none hidden sm:flex flex-row gap-10 flex justify-end ml-12'>
                      {navLinks.map((nav) => (
                         <li
                           key={nav.id}
