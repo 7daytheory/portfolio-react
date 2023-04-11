@@ -106,6 +106,10 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "php",
+      icon: php
+    }
   ];
   
   const experiences = [
