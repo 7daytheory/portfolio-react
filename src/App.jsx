@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from "./components";
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from "./components";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +14,6 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
