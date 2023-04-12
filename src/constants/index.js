@@ -174,20 +174,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dice Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "2 Player Dice Game , sometimes called 'Pig'",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "html",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
@@ -195,20 +195,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Kings PWA",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Progressive Web App(PWA) that has been published to the google app store.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "html",
           color: "pink-text-gradient",
         },
       ],
@@ -216,16 +216,16 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Xs and Os",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simple game of Xs and Os made with React that tracks each move.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
