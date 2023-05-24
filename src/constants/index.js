@@ -174,9 +174,9 @@ import {
   
   const projects = [
     {
-      name: "Dice Game",
+      name: "AI Article Summarizer",
       description:
-        "2 Player Dice Game , sometimes called 'Pig'",
+        "AI application that will sumarize and save articles.",
       tags: [
         {
           name: "react",
@@ -192,7 +192,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/7daytheory/custom-ai",
     },
     {
       name: "Kings PWA",
@@ -213,12 +213,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/7daytheory/kings",
     },
     {
-      name: "Xs and Os",
+      name: "Chat application",
       description:
-        "Simple game of Xs and Os made with React that tracks each move.",
+        "Two-way chat application where you can talk to others",
       tags: [
         {
           name: "react",
@@ -234,7 +234,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/7daytheory/chat-app",
     },
   ];
   
