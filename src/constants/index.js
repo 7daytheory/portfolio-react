@@ -12,8 +12,8 @@ import {
     git,
     figma,
     carrent,
-    jobit,
-    tripguide,
+    dice,
+    summarize,
     threejs,
     php,
     docker
@@ -191,13 +191,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: summarize,
       source_code_link: "https://github.com/7daytheory/custom-ai",
     },
     {
-      name: "Kings PWA",
+      name: "Dice Game",
       description:
-        "Progressive Web App(PWA) that has been published to the google app store.",
+        "Dice game that is commonly referred to as Pig.",
       tags: [
         {
           name: "javascript",
@@ -212,8 +212,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/7daytheory/kings",
+      image: dice,
+      source_code_link: "https://github.com/7daytheory/dice",
     },
     {
       name: "Chat application",
@@ -233,7 +233,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: carrent,
       source_code_link: "https://github.com/7daytheory/chat-app",
     },
   ];
