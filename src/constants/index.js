@@ -12,8 +12,8 @@ import {
     git,
     figma,
     carrent,
-    jobit,
-    tripguide,
+    dice,
+    summarize,
     threejs,
     php,
     docker
@@ -174,9 +174,9 @@ import {
   
   const projects = [
     {
-      name: "Dice Game",
+      name: "AI Article Summarizer",
       description:
-        "2 Player Dice Game , sometimes called 'Pig'",
+        "AI application that will sumarize and save articles.",
       tags: [
         {
           name: "react",
@@ -184,6 +184,48 @@ import {
         },
         {
           name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: summarize,
+      source_code_link: "https://github.com/7daytheory/custom-ai",
+    },
+    {
+      name: "Dice Game",
+      description:
+        "Dice game that is commonly referred to as Pig.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dice,
+      source_code_link: "https://github.com/7daytheory/dice",
+    },
+    {
+      name: "Chat application",
+      description:
+        "Two-way chat application where you can talk to others",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
@@ -192,49 +234,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Kings PWA",
-      description:
-        "Progressive Web App(PWA) that has been published to the google app store.",
-      tags: [
-        {
-          name: "javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Xs and Os",
-      description:
-        "Simple game of Xs and Os made with React that tracks each move.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/7daytheory/chat-app",
     },
   ];
   
