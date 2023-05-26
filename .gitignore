@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 src/assets
+src/components/canvas
+public/desktop_pc
+public/planet
