@@ -162,16 +162,6 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial: "",
-      name: "",
-      designation: "",
-      company: "",
-      image: "",
-    }
-  ];
-  
   const projects = [
     {
       name: "AI Article Summarizer",
