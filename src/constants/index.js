@@ -11,7 +11,7 @@ import {
     mongodb,
     git,
     figma,
-    carrent,
+    chatApp,
     dice,
     summarize,
     threejs,
@@ -233,7 +233,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: chatApp,
       source_code_link: "https://github.com/7daytheory/chat-app",
     },
   ];

@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import dice from "./dice.png";
 import summarize from "./summarizeAI.png";
-import carrent from "./carrent.png";
+import chatApp from './chatApp.jpg';
 
 export {
   logo,
@@ -55,7 +55,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  chatApp,
   summarize,
   dice,
   php
