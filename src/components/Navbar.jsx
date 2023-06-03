@@ -21,7 +21,7 @@ const Navbar = () => {
                 window.scrollTo(0,0); //Scroll to top of page
               }}
               >
-                <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+                <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
                   <p 
                     className="text-white text-[14px] font-medium cursor-pointer flex"
                      >Matthew&nbsp;<span className="flex sm:block hidden">| Developer</span>
@@ -32,7 +32,7 @@ const Navbar = () => {
                           key={nav.id}
                           className={`${
                             active === nav.title ? "text-white" : "text-secondary"
-                          } hover:text-white text-[18px] justify-end flex font-medium cursor-pointer`}
+                          } hover:text-white text-[20px] justify-end flex font-medium cursor-pointer`}
                           onClick={() => setActive(nav.title)}
                         >
                           <a href={`#${nav.id}`}>{nav.title}</a>

@@ -1,22 +1,19 @@
 import {
-    backend,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     chatApp,
-    dice,
+    simon,
     summarize,
     threejs,
     php,
-    docker
   } from "../assets";
   
   export const navLinks = [
@@ -75,10 +72,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -101,10 +94,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
     {
       name: "php",
@@ -185,9 +174,9 @@ import {
       source_code_link: "https://github.com/7daytheory/custom-ai",
     },
     {
-      name: "Dice Game",
+      name: "Simon",
       description:
-        "Dice game that is commonly referred to as Pig.",
+        "Digital version of the game Simon.",
       tags: [
         {
           name: "javascript",
@@ -202,8 +191,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: dice,
-      source_code_link: "https://github.com/7daytheory/dice",
+      image: simon,
+      source_code_link: "https://github.com/7daytheory/simon",
     },
     {
       name: "Chat application",

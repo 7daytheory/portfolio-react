@@ -51,17 +51,6 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
       </Tilt>
     </motion.div>
   );
@@ -80,7 +69,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Take a look at some of the projects I've been working on! Some of these are just new technologies I'm interested in and others are completed projects that you can check out, and you can view some of their code on github!
+          Take a look at some of the projects I've been working, you can also view the code on github.
         </motion.p>
       </div>
 

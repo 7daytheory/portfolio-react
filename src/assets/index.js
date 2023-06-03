@@ -26,7 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import dice from "./dice.png";
+import simon from "./simon.png";
 import summarize from "./summarizeAI.png";
 import chatApp from './chatApp.jpg';
 
@@ -57,6 +57,6 @@ export {
   tesla,
   chatApp,
   summarize,
-  dice,
+  simon,
   php
 };
