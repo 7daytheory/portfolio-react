@@ -26,3 +26,4 @@ src/assets
 src/components/canvas
 public/desktop_pc
 public/planet
+.env

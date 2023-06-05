@@ -23,7 +23,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "works",
+      title: "Projects",
     },
     {
       id: "contact",
