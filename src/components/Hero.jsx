@@ -18,7 +18,7 @@ const Hero = () => {
               <p className={`${styles.heroSubText} text-white-100 mt-2`}>Full stack developer <br className="sm:block hidden"/>3D Portfolio</p>
             </div>
             </div>
-            <ComputersCanvas />
+            <ComputersCanvas className="mt-3"/>
 
             <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
